@@ -1,0 +1,46 @@
+.td{
+
+    padding-left: 200px;
+    
+
+}
+
+.destra{
+
+
+   padding-left :35%;
+}
+
+h1{
+
+    text-align: center; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+    
+}
+
+ #cont .contatto{
+
+text-align: justify;
+text-decoration: underline;
+color : white;
+
+}
+
+p{
+
+text-align: justify; padding: 30px;
+
+
+}
+
+#contatti{
+
+    float : right;
+
+}
+
+a{
+
+    color: white
+
+}

@@ -1,0 +1,31 @@
+h1{
+
+        color :white;
+        font-family: consolas;
+
+
+}
+
+center{
+
+    color :white;
+
+}
+
+.nav-link{
+
+    color :white;
+    margin-right: 80px;
+    padding-bottom: 60px;
+
+}
+
+#contatore {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    width: 40px;
+    
+  }
+
+  

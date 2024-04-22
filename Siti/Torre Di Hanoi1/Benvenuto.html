@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="cssBenvenuto.css"/>
+    <title>Benvenuto!</title>
+</head>
+<body style=" background-image: url(Imm/hanoi.png); background-size: cover; background-repeat: no-repeat;">
+    <main >
+        <div id="welcome-message">Benvenuto!</div>
+        <label for="name-input">Inserisci il tuo nome:</label>
+        <input type="text" id="name-input">
+        <button id="submit-button"><a href="hanoi.html">Invia</a></button>
+
+        <script>
+            document.getElementById("submit-button").addEventListener("click", function() {
+                var name = document.getElementById("name-input").value;
+                if (name.trim() === "") {
+                    alert("Per favore inserisci il tuo nome.");
+                } else {
+                    alert("Benvenuto, " + name + "!");
+                }
+            });
+        </script>
+    </main>
+</body>
+</html>
